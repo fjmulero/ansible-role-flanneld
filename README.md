@@ -28,6 +28,7 @@ etcd_certificates:
 flannel_version: "v0.7.1"
 flannel_etcd_prefix: "/kubernetes-cluster/network"
 flannel_ip_range: "10.200.0.0/16"
+flannel_subnetlet: "26"
 flannel_cni_name: "podnet"
 flannel_subnet_file_dir: "/run/flannel"
 flannel_options_dir: "/etc/flannel"
